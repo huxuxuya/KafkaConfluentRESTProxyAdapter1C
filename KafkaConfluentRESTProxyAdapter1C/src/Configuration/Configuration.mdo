@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c61964d-2457-4b28-a3fd-306db96511f7">
+  <name>KafkaConfluentRESTProxyAdapter1C</name>
+  <synonym>
+    <key>ru</key>
+    <value>Kafka confluent RESTProxy adapter1 C</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4f7cfa5d-a8fc-4602-8114-105db393dad5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8445e6cd-0926-400d-bdc5-3b7e713cf371"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="14662b04-f2a4-4c1b-9684-41641ce3252c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="453f1b73-2e30-4070-9bd8-7cba54ed3336"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="26371702-5dcb-4afe-9c51-aeb2336d67a6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="90d2d112-c4ed-434b-ab68-87f9cbcbc5f8"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="8288aa1b-9a75-4d50-8522-3c92bc239ee4"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="25ce1f0d-cd9b-4845-af4f-f6175907d700">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+</mdclass:Configuration>
