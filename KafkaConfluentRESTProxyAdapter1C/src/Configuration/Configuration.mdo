@@ -39,4 +39,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.Кафка</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
 </mdclass:Configuration>
