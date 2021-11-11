@@ -1,0 +1,72 @@
+edit:
+  presentation: Default editing storage
+  rules:
+    prefer-context:
+      storages:
+      - context:interface
+      - context:model
+      when:
+        prefercontext: 'true'
+    other:
+      storages:
+      - dictionary:common-camelcase
+      - dictionary:common
+      - dictionary:common-interface
+read:
+- context:interface
+- context:model
+- dictionary:common-camelcase
+- dictionary:common
+- dictionary:common-interface
+- edit:default
+- com.e1c.langtool.v8.dt.storage:platform
+- com.e1c.langtool.v8.dt.md.dbview:terms
+context:
+  interface:
+    presentation: Interface context translations
+    format: properties
+    file_extension: lstr
+    read_only: false
+    feature_filter:
+      interface: ONLY
+  model:
+    presentation: Model context translations
+    format: properties
+    file_extension: trans
+    read_only: false
+    feature_filter:
+      model: ONLY
+dictionary:
+  common-camelcase:
+    presentation: Model common CamelCase idenitfiers
+    format: dict
+    file_extension: dict
+    file_path: src/common-camelcase
+    read_only: false
+    feature_filter:
+      model: ONLY
+      camelcase: ONLY
+  common:
+    presentation: Model common non-CamelCase translations
+    format: dict
+    file_extension: dict
+    file_path: src/common
+    read_only: false
+    feature_filter:
+      model: ONLY
+      camelcase: NONE
+  common-interface:
+    presentation: Interface common translations
+    format: dict
+    file_extension: lsdict
+    file_path: src/common
+    read_only: false
+    feature_filter:
+      interface: ONLY
+storage:
+  com.e1c.langtool.v8.dt.storage:platform:
+    presentation: Platform context definition
+    read_only: true
+  com.e1c.langtool.v8.dt.md.dbview:terms:
+    presentation: DbView Terms
+    read_only: true
