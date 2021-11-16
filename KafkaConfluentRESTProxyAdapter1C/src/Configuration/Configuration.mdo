@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c61964d-2457-4b28-a3fd-306db96511f7">
-  <name>KafkaConfluentRESTProxyAdapter1C</name>
+  <name>KafkaСonfluentAdapter1C_ru</name>
   <synonym>
     <key>ru</key>
-    <value>Kafka confluent RESTProxy adapter1 C</value>
+    <value>Kafka сonfluent adapter 1c(ru)</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4f7cfa5d-a8fc-4602-8114-105db393dad5"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8445e6cd-0926-400d-bdc5-3b7e713cf371"/>
