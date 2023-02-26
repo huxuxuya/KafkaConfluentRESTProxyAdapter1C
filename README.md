@@ -8,6 +8,7 @@
 
 [Быстро посмотреть текст модуля](./KafkaConfluentRESTProxyAdapter1C/src/CommonModules/Кафка/Module.bsl)
 
+[Группа в телеграмм.](https://t.me/k8s_1c)
 
 ## Возможности
 Основные возможности адаптера:
